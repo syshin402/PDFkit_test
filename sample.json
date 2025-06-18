@@ -15,7 +15,7 @@
   },
   "testResults": [
     {
-      "testResultId": "TR-0001",
+      "testResultId": "T1",
       "testName": "Hemoglobin",
       "loincCode": "718-7",
       "resultValue": "13.5",
@@ -24,7 +24,7 @@
       "status": "Final"
     },
     {
-      "testResultId": "TR-0002",
+      "testResultId": "T2",
       "testName": "COVID-19 PCR",
       "loincCode": "94500-6",
       "resultValue": "Negative",
@@ -33,7 +33,7 @@
       "status": "Final"
     },
     {
-      "testResultId": "TR-0003",
+      "testResultId": "T3",
       "testName": "Blood Glucose (Fasting)",
       "loincCode": "1558-6",
       "resultValue": "95",
