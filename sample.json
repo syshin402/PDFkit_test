@@ -1,0 +1,50 @@
+{
+  "userProfile": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "dateOfBirth": "1975-08-25",
+    "gender": "Male",
+    "id": "123456"
+  },
+  "labOrder": {
+    "labOrderId": "RPT-9976543",
+    "specimenDate": "2024-04-24",
+    "reportDate": "2024-04-25",
+    "labName": "ABC Laboratory",
+    "labAddress": "123 Lab St, Anytown, USA"
+  },
+  "testResults": [
+    {
+      "testResultId": "TR-0001",
+      "testName": "Hemoglobin",
+      "loincCode": "718-7",
+      "resultValue": "13.5",
+      "unit": "g/dL",
+      "referenceRange": "13.0–17.0",
+      "status": "Final"
+    },
+    {
+      "testResultId": "TR-0002",
+      "testName": "COVID-19 PCR",
+      "loincCode": "94500-6",
+      "resultValue": "Negative",
+      "unit": "Negative",
+      "referenceRange": "Negative",
+      "status": "Final"
+    },
+    {
+      "testResultId": "TR-0003",
+      "testName": "Blood Glucose (Fasting)",
+      "loincCode": "1558-6",
+      "resultValue": "95",
+      "unit": "mg/dL",
+      "referenceRange": "70–100",
+      "status": "Final"
+    }
+  ],
+  "signerInfo": {
+    "name": "Dr. A. Smith",
+    "position": "Lab Technician"
+  },
+  "verificationLink": "https://yourlab.com/verify?code=RPT-9976543"
+}
